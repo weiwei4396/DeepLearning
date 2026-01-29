@@ -9,6 +9,11 @@ relearn
 
 [好的回答](https://developer.aliyun.com/article/1467527)
 
+2.nn.BCEWithLogitsLoss()与nn.BCELoss()
+[好的回答](https://blog.csdn.net/qq_22210253/article/details/85222093)
+
+
+
 </details>
 
 
