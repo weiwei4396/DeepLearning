@@ -6,7 +6,8 @@ relearn
 <details>
 <summary> </summary>
 1.Pytorch构建网络模型时super(__class__, self).__init__()的作用
-(answer)[https://developer.aliyun.com/article/1467527]
+
+!(answer)[https://developer.aliyun.com/article/1467527]
 
 </details>
 
