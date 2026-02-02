@@ -20,24 +20,35 @@
 <summary> </summary>
 二元交叉熵损失(Binary Cross Entropy Loss)
 
-- 
+
 
 参考
 - https://blog.csdn.net/qq_22210253/article/details/85222093
 </details>
 
-**3. sigmoid与softmax**
+**3. Sigmoid与Softmax**
 <details>
 <summary> </summary>
 - Sigmoid是逐元素的二元激活函数, 将任意实数映射到(0,1)区间, 适合独立的二分类或多标签任务; Softmax是逐向量的归一化函数, 将一个向量映射为概率分布(和为 1), 适合互斥的多分类任务。
 https://github.com/weiwei4396/DeepLearning/blob/main/picture/sigmoid_softmax.jpg
+</details>
+
+**4. 神经网络训练的基本步骤**
+<details>
+<summary> </summary>
+
 
 
 </details>
 
 
-**4. 神经网络训练的基本步骤**
+**5. Batch Normalization和 Layer Normalization**
+<details>
+<summary> </summary>
 
+
+
+</details>
 
 
 
