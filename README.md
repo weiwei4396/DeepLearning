@@ -37,7 +37,7 @@
 
 
 **4. sigmoid与softmax**
-
+![](https://github.com/weiwei4396/DeepLearning/blob/main/picture/sigmoid_softmax.jpg)
 
 
 
