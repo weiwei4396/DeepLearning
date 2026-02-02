@@ -2,7 +2,7 @@
 **relearn**
 
 
-#### Question & Answer 
+## Question & Answer 
 **1.Pytorch构建网络模型时super(__class__, self).__init__()的作用**
 <details>
 <summary> </summary>
@@ -12,7 +12,7 @@
 - torch.nn.Module.__init__()的作用是初始化内部模型状态(Initializes internal Module state)。具体地, 就是初始化training, parameters..._modules这些在Pytorch中内部使用的属性。所以，在Pytorch框架下，所有的神经元网络模型子类，都必须要继承这些内部属性的初始化过程。
 
 参考
-https://developer.aliyun.com/article/1467527
+- https://developer.aliyun.com/article/1467527
 
 </details>
 
@@ -23,8 +23,7 @@ https://developer.aliyun.com/article/1467527
 
 
 参考
-
-https://blog.csdn.net/qq_22210253/article/details/85222093
+- https://blog.csdn.net/qq_22210253/article/details/85222093
 </details>
 
 
