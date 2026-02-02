@@ -38,6 +38,7 @@ https://github.com/weiwei4396/DeepLearning/blob/main/picture/sigmoid_softmax.jpg
 **4. 神经网络训练的基本步骤**
 <details>
 <summary> </summary>
+
 - A.将数据分解为训练集和测试集; 验证集, 用于调参和早停;
 - B.定义网络结构, 初始化模型部件, forward函数定义模型结构;
 - C.定义超参数和工具, epoch, batch size, 学习率, 优化器, 损失函数;
