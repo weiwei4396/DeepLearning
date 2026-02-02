@@ -20,7 +20,9 @@
 <summary> </summary>
 二元交叉熵损失(Binary Cross Entropy Loss)
 
-
+- nn.BCELoss要求输入是已经经过 Sigmoid 激活的概率值(0~1 之间);
+- nn.BCEWithLogitsLoss直接接受未激活的logits(Logits是神经网络最后一层输出的原始、未归一化的分数(raw scores), 即模型线性变换后的直接结果, 没有经过Sigmoid或Softmax等激活函数处理), 内部自动完成Sigmoid + BCE 计算, 数值更稳定, 是实际项目中的首选。 
+https://github.com/weiwei4396/DeepLearning/blob/main/picture/BCELoss_BCEWithLogitsLoss.jpg
 
 参考
 - https://blog.csdn.net/qq_22210253/article/details/85222093
@@ -29,7 +31,7 @@
 **3. Sigmoid与Softmax**
 <details>
 <summary> </summary>
-- Sigmoid是逐元素的二元激活函数, 将任意实数映射到(0,1)区间, 适合独立的二分类或多标签任务; Softmax是逐向量的归一化函数, 将一个向量映射为概率分布(和为 1), 适合互斥的多分类任务。
+- Sigmoid是逐元素的二元激活函数, 将任意实数映射到(0,1)区间, 适合独立的二分类或多标签任务; Softmax是逐向量的归一化函数, 将一个向量映射为概率分布(和为1), 适合互斥的多分类任务。
 https://github.com/weiwei4396/DeepLearning/blob/main/picture/sigmoid_softmax.jpg
 </details>
 
