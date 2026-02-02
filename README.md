@@ -38,10 +38,27 @@ https://github.com/weiwei4396/DeepLearning/blob/main/picture/sigmoid_softmax.jpg
 **4. 神经网络训练的基本步骤**
 <details>
 <summary> </summary>
-
-
-
+- A.将数据分解为训练集和测试集; 验证集, 用于调参和早停;
+- B.定义网络结构, 初始化模型部件, forward函数定义模型结构;
+- C.定义超参数和工具, epoch, batch size, 学习率, 优化器, 损失函数;
+- D.模型训练(model.train()), 循环epoch, 循环minibatch, 前向传播(模型预测, 计算损失), 反向传播(清零梯度准备计算, 反向传播, 更新训练参数)
 </details>
+
+```python
+criterion = nn.BCEWithLogitsLoss(pos_weight=pos_weight)
+optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+model.train() 
+for epoch in range(num_epochs):
+    running_loss = 0.0
+    # 前向传播
+    outputs = model(X_train)
+    loss = criterion(outputs, y_train)
+    # 反向传播 + 优化
+    optimizer.zero_grad() # 清零梯度准备计算
+    loss.backward() # 反向传播
+    optimizer.step() # 更新训练参数
+    running_loss = loss.item()
+```
 
 
 **5. Batch Normalization和 Layer Normalization**
