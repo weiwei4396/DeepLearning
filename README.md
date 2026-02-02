@@ -3,7 +3,7 @@
 
 
 ## Question & Answer 
-**1.Pytorch构建网络模型时super(__class__, self).__init__()的作用**
+**1. Pytorch构建网络模型时super(__class__, self).__init__()的作用**
 <details>
 <summary> </summary>
 
@@ -13,18 +13,31 @@
 
 参考
 - https://developer.aliyun.com/article/1467527
-
 </details>
 
-**2.nn.BCEWithLogitsLoss()与nn.BCELoss()**
+**2. nn.BCEWithLogitsLoss()与nn.BCELoss()**
 <details>
 <summary> </summary>
-
-
+二元交叉熵损失(Binary Cross Entropy Loss)
+- 
 
 参考
 - https://blog.csdn.net/qq_22210253/article/details/85222093
 </details>
+
+**3. sigmoid与softmax**
+<details>
+<summary> </summary>
+- Sigmoid 是逐元素的二元激活函数, 将任意实数映射到 (0,1) 区间, 适合独立的二分类或多标签任务; 
+
+
+</details>
+
+
+
+
+
+
 
 
 
