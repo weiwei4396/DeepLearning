@@ -63,6 +63,7 @@ for epoch in range(num_epochs):
 
 
 **5. Batch Normalization和 Layer Normalization**
+
 BatchNorm是**一个特征跨样本看**, LayerNorm是**一个样本看所有特征**
 <details>
 <summary> </summary>
@@ -72,8 +73,6 @@ BatchNorm是**一个特征跨样本看**, LayerNorm是**一个样本看所有特
 
 参考
 - [手绘详解batchnorm与layernorm的区别](https://www.bilibili.com/video/BV1FM4m1z7bj?spm_id_from=333.788.recommend_more_video.0&trackid=web_related_0.router-related-2481894-kg9c9.1770118180866.571&vd_source=acce8715c57afd289ccc324d9929587b)
-
-
 
 </details>
 
