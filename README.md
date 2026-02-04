@@ -1,5 +1,5 @@
 # DeepLearning
-**relearn**
+**Learn**
 
 
 ## Question & Answer 
@@ -67,6 +67,7 @@ for epoch in range(num_epochs):
 BatchNorm是**一个特征跨样本看**, LayerNorm是**一个样本看所有特征**
 <details>
 <summary> </summary>
+
 - Batch Norm在每一个特征上进行归一化, 比如图片中相当于在每个通道上进行归一化;
 - Batch Norm特征上变化较小的数据比如图像数据, CNN中使用; 在自然语言中每个词或句子的特征维度变化大, 不同批次的语句均值和方差抖动大, 当预测新的句子时, Batch Norm不够稳定, 不适用于新样本;
 - Layer Norm中对每个样本做一个归一化, NLP里面各个样本(序列)长度不一致, 所以用Batch Norm不合适, 这样均值和方差的贡献主要来自长序列; Layer Norm中每个序列的每个token自己做归一化。
